@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/donation13.jpg); 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 112px;
+}
+.header p{
+    text-align: center;
+    width: 690px;
+    height: 60px;
+}
+.btn-primary{
+    background-color: #FF5959;
+    color: antiquewhite;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    font-size: medium;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: rgb(230, 243, 244);
+}
+
+.Donate-today{
+    width: 750px;
+    margin: 10px auto;
+    padding: 18px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Donate-today p{
+    text-align: center;
+    margin: 20px 50px;
+    color: #707070;
+}
+.donate-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.donate-btn button{
+    width: 136px;
+    height: 123px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+.Donate-today input{
+    border: none;
+    padding: 20px;
+    font-size: large;
+    font-weight: medium;
+    border-bottom: 1px solid rgb(122, 117, 117);
+    width: 100%;
+    height: 50px;
+}
+.Donate-today input::placeholder{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.D-plan{
+    margin: 90px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.D-plan p{
+    text-align: center;
+    margin: 15px 50px;
+    padding: 5px 200px;
+    color: #707070;
+}
+.card-holder{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.d-planCard{
+    width: 350px;
+    height: 280px;
+    padding: 32px 32px;
+    border-radius: 5px;
+}
+.d-planCard h3{
+    margin: 32px 0;
+}
+.d-planCard p{
+    text-align: left;
+    margin: 10px 0;
+    padding: 0;
+    color: #707070;
+}
+#n1{
+    background-color: rgb(79, 157, 166, 10%);
+}
+#n2{
+    background-color: rgb(255, 89, 89, 10%);
+}
+#n3{
+    background-color: rgba(233, 174, 12, 0.1);
+}
+.Contribute{
+    display: flex;
+    align-items: center;
+    margin: 90px 150px;
+    gap: 90px;
+}
+.Contribute div{
+    width: 493px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.Contribute div p{
+    color: #707070;
+}
+#btn-5{
+    height: 56px;
+    width: 230px;
+}
+#btn-6{
+    height: 56px;
+    width: 230px;
+}
+.Contribute img{
+    width: 456px;
+    height: 477px;
+    border-radius: 8px;
+}
+.Updates{
+    width: 691px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px auto;
+}
+.Updates p{
+    margin: 15px 50px;
+    padding: 5px 15px;
+    color: #707070;
+}
+.subscribe{
+    margin: 70px auto;
+    width: 809px;
+    height: 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe form{
+    display: flex;
+    gap: 0px;
+}
+.subscribe form input{
+    height: 40px;
+    width: 290px;
+    border-right: none ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.subscribe form input::placeholder{
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+#btn-7{
+    background-color: #FF5959;
+    color: antiquewhite;
+    height: 43.5px;
+    width: 120px;
+    font-weight: bold;
+    font-size: medium;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+footer h1{
+    margin-top: 42px;
+}
+footer p{
+    margin-bottom: 42px;
+}
